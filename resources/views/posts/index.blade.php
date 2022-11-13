@@ -42,7 +42,7 @@
                         <div id="error"></div>
                         <input type="hidden" name="id" id="id">
                         <div class="mb-3">
-                            <label for="title" class="form-label">Note Title <span class="text-danger">*</span></label>
+                            <label for="title" class="form-label">Note Title<span class="text-danger">*</span></label>
                             <input id="title" name="title" type="text" class="form-control" placeholder="Note Title">
                         </div>
                         <div class="mb-3">

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-content">
             <a href="/home" class="navbar-brand">
-                GAMING<span>GEAR</span>
+                WAREHOUSE<span>S</span>
             </a>
             <form class="search-form">
                 <div class="input-group">
@@ -29,7 +29,7 @@
                             @if (Route::has('login'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('login') }}">
-                                    <button type="button" class="btn btn-outline-secondary btn-sm"> --Login-- </button>
+                                    <button type="button" class="btn btn-primary btn-sm"> --Login-- </button>
                                     </a>
 
                                 </li>
@@ -38,7 +38,7 @@
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">
-                                    <button type="button" class="btn btn-outline-secondary btn-sm">-Register-</button>
+                                    <button type="button" class="btn btn-primary btn-sm">-Register-</button>
                                     </a>
                                 </li>
                             @endif

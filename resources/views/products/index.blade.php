@@ -29,7 +29,6 @@
                         <th class="pt-0">Product Name</th>
                         <th class="pt-0">Product Image</th>
                         <th class="pt-0">Product Detail</th>
-                        <th class="pt-0">Created At</th>
                         <th class="pt-0">Actions</th>
                     </tr>
                     </thead>
@@ -40,7 +39,6 @@
                             <td>{{$val->name}}</td>
                             <td><img alt="img" src="/img/{{ $val->image }}" width="100px"></td>
                             <td>{{$val->detail}}</td>
-                            <td>{{ $val->created_at }}</td>
                             <td>
                                 <form action="{{ route('products.destroy',$val->id) }}" method="POST">
                                     {{ csrf_field()  }}
